@@ -1,0 +1,11 @@
+webpackHotUpdate(2,{
+
+/***/ 89:
+/***/ (function(module, __webpack_exports__) {
+
+"use strict";
+eval("function ourLog(value){\n  const ourConsole = document.getElementById('console');\n  ourConsole.innerHTML = ourConsole.innerHTML + (value + '\\n');\n}\nfunction runCode(e) {\n  const ourConsole = document.getElementById('console');\n  ourConsole.value = '';\n\n  let codeToRun = document.getElementById(\"code-pane\").value;\n  codeToRun = codeToRun.replace(/console.log/g,'ourLog');\n  try {\n    eval(codeToRun);\n  } catch (e) {\n    // Make sure we can put errors on console as well\n    ourLog('Error: ' + e.message);\n}\n}\ndocument.getElementById(\"runButton\").addEventListener(\"click\", runCode);\n\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiODkuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvYmFja2dyb3VuZC5qcz83OThmIl0sInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIG91ckxvZyh2YWx1ZSl7XG4gIGNvbnN0IG91ckNvbnNvbGUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY29uc29sZScpO1xuICBvdXJDb25zb2xlLmlubmVySFRNTCA9IG91ckNvbnNvbGUuaW5uZXJIVE1MICsgKHZhbHVlICsgJ1xcbicpO1xufVxuZnVuY3Rpb24gcnVuQ29kZShlKSB7XG4gIGNvbnN0IG91ckNvbnNvbGUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY29uc29sZScpO1xuICBvdXJDb25zb2xlLnZhbHVlID0gJyc7XG5cbiAgbGV0IGNvZGVUb1J1biA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiY29kZS1wYW5lXCIpLnZhbHVlO1xuICBjb2RlVG9SdW4gPSBjb2RlVG9SdW4ucmVwbGFjZSgvY29uc29sZS5sb2cvZywnb3VyTG9nJyk7XG4gIHRyeSB7XG4gICAgZXZhbChjb2RlVG9SdW4pO1xuICB9IGNhdGNoIChlKSB7XG4gICAgLy8gTWFrZSBzdXJlIHdlIGNhbiBwdXQgZXJyb3JzIG9uIGNvbnNvbGUgYXMgd2VsbFxuICAgIG91ckxvZygnRXJyb3I6ICcgKyBlLm1lc3NhZ2UpO1xufVxufVxuZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJydW5CdXR0b25cIikuYWRkRXZlbnRMaXN0ZW5lcihcImNsaWNrXCIsIHJ1bkNvZGUpO1xuXG5cblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL3NyYy9qcy9iYWNrZ3JvdW5kLmpzXG4vLyBtb2R1bGUgaWQgPSA4OVxuLy8gbW9kdWxlIGNodW5rcyA9IDIiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOyIsInNvdXJjZVJvb3QiOiIifQ==");
+
+/***/ })
+
+})

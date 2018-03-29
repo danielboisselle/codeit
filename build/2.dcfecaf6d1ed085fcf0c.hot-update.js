@@ -1,0 +1,11 @@
+webpackHotUpdate(2,{
+
+/***/ 89:
+/***/ (function(module, __webpack_exports__) {
+
+"use strict";
+eval("function ourLog(value){\n  const ourConsole = document.getElementById('console');\n  ourConsole.innerHTML = ourConsole.innerHTML + (value + '<br>');\n}\nfunction runCode(e) {\n  const ourConsole = document.getElementById('console');\n  ourConsole.value = '';\n\n  let codeToRun = document.getElementById(\"code-pane\").value;\n  codeToRun = codeToRun.replace(/console.log/g,'ourLog');\n  try {\n    eval(codeToRun);\n  } catch (e) {\n    // Make sure we can put errors on console as well\n    ourLog('Error: ' + e.message);\n}\n}\ndocument.getElementById(\"runButton\").addEventListener(\"click\", runCode);\n\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiODkuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvYmFja2dyb3VuZC5qcz83OThmIl0sInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIG91ckxvZyh2YWx1ZSl7XG4gIGNvbnN0IG91ckNvbnNvbGUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY29uc29sZScpO1xuICBvdXJDb25zb2xlLmlubmVySFRNTCA9IG91ckNvbnNvbGUuaW5uZXJIVE1MICsgKHZhbHVlICsgJzxicj4nKTtcbn1cbmZ1bmN0aW9uIHJ1bkNvZGUoZSkge1xuICBjb25zdCBvdXJDb25zb2xlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NvbnNvbGUnKTtcbiAgb3VyQ29uc29sZS52YWx1ZSA9ICcnO1xuXG4gIGxldCBjb2RlVG9SdW4gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImNvZGUtcGFuZVwiKS52YWx1ZTtcbiAgY29kZVRvUnVuID0gY29kZVRvUnVuLnJlcGxhY2UoL2NvbnNvbGUubG9nL2csJ291ckxvZycpO1xuICB0cnkge1xuICAgIGV2YWwoY29kZVRvUnVuKTtcbiAgfSBjYXRjaCAoZSkge1xuICAgIC8vIE1ha2Ugc3VyZSB3ZSBjYW4gcHV0IGVycm9ycyBvbiBjb25zb2xlIGFzIHdlbGxcbiAgICBvdXJMb2coJ0Vycm9yOiAnICsgZS5tZXNzYWdlKTtcbn1cbn1cbmRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwicnVuQnV0dG9uXCIpLmFkZEV2ZW50TGlzdGVuZXIoXCJjbGlja1wiLCBydW5Db2RlKTtcblxuXG5cblxuLy8vLy8vLy8vLy8vLy8vLy8vXG4vLyBXRUJQQUNLIEZPT1RFUlxuLy8gLi9zcmMvanMvYmFja2dyb3VuZC5qc1xuLy8gbW9kdWxlIGlkID0gODlcbi8vIG1vZHVsZSBjaHVua3MgPSAyIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=");
+
+/***/ })
+
+})
